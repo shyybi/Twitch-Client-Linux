@@ -1,0 +1,16 @@
+{
+  "name": "twitch-electron-app",
+  "version": "1.0.0",
+  "description": "Application Electron pour afficher les top streams Twitch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "electron": "^13.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Twitch pour Linux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Client Twitch pour Linux</h1>
+        <button id="loginButton">Se connecter</button>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+            <h2>Chaînes suivies</h2>
+            <ul id="followedChannels">
+            </ul>
+            <h2>Chaînes recommandées</h2>
+            <ul id="recommendedChannels">
+                <!-- Les chaînes recommandées seront ajoutées ici dynamiquement -->
+            </ul>
+        </aside>
+        <main>
+            <h2>Top Streams</h2>
+            <div id="topStreams">
+                <!-- Les top streams avec leurs vignettes seront ajoutés ici dynamiquement -->
+            </div>
+        </main>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
